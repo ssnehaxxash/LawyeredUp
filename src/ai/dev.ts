@@ -1,0 +1,23 @@
+import { config } from 'dotenv';
+config();
+
+import '@/ai/flows/summarize-document.ts';
+import '@/ai/flows/explain-legal-clause-in-plain-language.ts';
+import '@/ai/flows/personalize-analysis-with-role-lens.ts';
+import '@/ai/flows/identify-risks-and-suggest-counter-proposals.ts';
+import '@/ai/flows/answer-question-from-document.ts';
+import '@/ai/flows/compare-documents.ts';
+import '@/ai/flows/predict-risk.ts';
+import '@/ai/flows/predict-outcome.ts';
+import '@/ai/flows/personalize-legal-advice.ts';
+import '@/ai/flows/translate-legal-text.ts';
+import '@/ai/flows/generate-case-timeline.ts';
+import '@/ai/flows/generate-cost-forecast.ts';
+import '@/ai/flows/parse-uploaded-document.ts';
+import '@/ai/flows/check-missing-contracts.ts';
+import '@/ai/flows/generate-legal-lens-summary.ts';
+import '@/ai/flows/track-compliance.ts';
+import '@/ai/flows/process-batch-contracts.ts';
+import '@/ai/flows/compare-to-market-standards.ts';
+import '@/ai/flows/flag-uncertain-clauses.ts';
+import '@/ai/flows/generate-suggested-questions.ts';
